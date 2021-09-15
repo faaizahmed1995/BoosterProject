@@ -11,7 +11,11 @@ pageextension 50104 MyCustListExt extends "Customer List"
                 ApplicationArea = All;
                 SubPageLink = "Customer No." = field("No.");
             }
-
+            part(MyPart1; "My Customers")
+            {
+                ApplicationArea = All;
+                SubPageLink = "Customer No." = field("No.");
+            }
 
         }
     }
